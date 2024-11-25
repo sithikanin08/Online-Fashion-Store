@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    color: #000000; 
+    background: url('b.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.banner{
+    background-size: cover;
+    padding-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: #000000; 
+    margin-bottom: 20px;
+}
+
+/* Feedback Form Container */
+.feedback-form {
+    width: 50%;
+    margin: 7rem auto; 
+    padding: 20px;
+    border: 1px solid #000000; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    background: rgba(199, 196, 196, 0.7); 
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Form Labels */
+.feedback-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Form Inputs */
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    background-color: #ffffff; 
+    font-size: 1rem;
+}
+
+/* Input Focus Styling */
+.feedback-form input[type="text"]:focus,
+.feedback-form input[type="email"]:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+    border-color: #45DEC5; 
+    outline: none;
+}
+
+/* Submit Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.feedback-form input[type="submit"] {
+    background-color: #000000; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #333333; 
+}
+
+/* Adjust select and textarea width to avoid horizontal overflow */
+.feedback-form select {
+    padding: 8px;
+}
+
+.feedback-form textarea {
+    resize: none;
+}
+
+/* Form Select Placeholder */
+.feedback-form select option[value=""] {
+    color: #999; 
+}
+
+/* Style Empty Option in the Dropdown */
+.feedback-form select option[disabled] {
+    display: none;
+}

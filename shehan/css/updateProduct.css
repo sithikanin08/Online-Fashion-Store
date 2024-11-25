@@ -1,0 +1,79 @@
+/* update.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.all {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 9rem;
+}
+
+.top {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #eaeaea;
+    
+}
+
+.mid {
+    margin-top: 20px;
+}
+
+.mid img {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+.inputField {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.inputField:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+.btn {
+    text-align: center;
+}
+
+.edit_btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit_btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    margin-top: 7rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 7rem;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+form {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 48%;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.inputBox {
+    margin-bottom: 15px;
+}
+
+.inputBox span {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.inputBox input, .inputBox .flex input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.inputBox input:focus {
+    border-color: #45DEC5;
+    outline: none;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.checkbox input {
+    margin-left: 10px;
+    accent-color: #45DEC5;
+}
+
+.total {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.tot {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.amount {
+    font-size: 1.8rem;
+    color: #45DEC5;
+}
+
+/* Button Styling */
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #45DEC5;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #38c2ab;
+}
+
+/* Media Queries for smaller screens */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        min-width: 100%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .tot, .amount {
+        text-align: left;
+    }
+}

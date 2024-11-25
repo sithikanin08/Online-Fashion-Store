@@ -1,0 +1,241 @@
+/* General body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.banner {
+    background-size: cover;
+    padding: 100px;
+    padding-bottom: 40px;
+}
+
+.dbanner {
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 160px;
+}
+
+
+/* Container styling for layout */
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+
+/* Input field styling */
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=date],
+input[type=password],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+
+/* Submit button styling */
+
+input[type=submit] {
+    padding: 12px 20px;
+    background-color: #45DEC5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Submit button hover effect */
+
+input[type=submit]:hover {
+    background-color: #007bff;
+}
+
+
+/* Delete button styling */
+
+input[type=submit][name="delete"] {
+    background-color: #dc3545;
+}
+
+input[type=submit][name="delete"]:hover {
+    background-color: #c82333;
+}
+
+
+/* Links styling */
+
+a {
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Table styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}
+
+
+/* Error message styling */
+
+.error {
+    color: red;
+}
+
+
+/* Success message styling */
+
+.success {
+    color: green;
+    font-size: 16px;
+}
+
+
+/* General label styling */
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+
+/* Add some padding between form fields */
+
+form {
+    margin-top: 20px;
+}
+
+
+/* Padding between links in the container */
+
+.container a {
+    margin-right: 10px;
+}
+
+
+/* Hover effect for table rows */
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Header styling */
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+/* Button group styling */
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    /* Adjusts space between elements */
+    align-items: center;
+    /* Vertically center the items */
+}
+
+.button-group input[type="submit"] {
+    margin-right: 10px;
+    /* Add space between the button and the link */
+}
+
+
+/* Button styling */
+
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.create {
+    background-color: #28a745;
+    /* Green */
+}
+
+.update {
+    background-color: #007bff;
+    /* Blue */
+}
+
+.delete {
+    background-color: #dc3545;
+    /* Red */
+}
+
+
+/* Button hover effects */
+
+.btn.create:hover {
+    background-color: #218838;
+    /* Darker Green */
+}
+
+.btn.update:hover {
+    background-color: #0056b3;
+    /* Darker Blue */
+}
+
+.btn.delete:hover {
+    background-color: #c82333;
+    /* Darker Red */
+}

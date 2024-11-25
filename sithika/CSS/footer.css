@@ -1,0 +1,72 @@
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Page Divider */
+.pageDevider02 {
+    border: 2px solid #45DEC5;
+    width: 100%;
+    margin: 0 auto 0rem auto; 
+}
+
+/* Social Icons and Links Inline */
+.nav__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem; 
+    margin-bottom: 1rem;
+}
+
+.nav__social-link {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+.nav__social-link:hover {
+    color: #45DEC5;
+    transform: scale(1.2);
+}
+
+.about, .contact {
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-decoration: none; 
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for About and Contact Links */
+.about:hover, .contact:hover {
+    color: #45DEC5;
+    text-decoration: underline;
+}
+
+
+.rights {
+    margin-top: 1rem;
+}
+
+.rights p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .nav__social {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .about, .contact {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}

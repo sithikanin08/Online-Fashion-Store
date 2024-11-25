@@ -1,0 +1,92 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    padding: 10px;
+}
+
+.top {
+    background-color: #45DEC5;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mid {
+    padding: 20px;
+}
+
+/* Table styling */
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.tbl thead {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tbl th, .tbl td {
+    padding: 12px 15px;
+    border: 1px solid #000000;
+}
+
+.tbl th {
+    text-transform: uppercase;
+}
+
+.tbl td.image img {
+    width: 100px;
+    height: auto;
+}
+
+/* Button styling */
+button {
+    background-color: #45DEC5;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.edt {
+    margin-right: 10px;
+}
+
+.dlt {
+    background-color: #FF6961;
+    color: #ffffff;
+}
+
+/* Empty message styling */
+.empty {
+    text-align: center;
+    font-size: 18px;
+    color: #FF6961;
+    margin-top: 20px;
+}
+

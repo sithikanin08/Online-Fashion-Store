@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bk1.webp); 
+}
+
+.all{
+    margin-top: 7rem;
+    padding: 20px;
+}
+
+.top{
+    font-size: 30px;
+    padding: 20px 10px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+
+}
+
+.mid{
+    background-color:  rgba(0, 0, 0, 0.774);
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    border: 5px solid rgba(27, 105, 61, 0.814);
+    text-align: center;
+    padding-top: 30px;padding-bottom: 30px;
+}

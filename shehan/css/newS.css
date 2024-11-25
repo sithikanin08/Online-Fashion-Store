@@ -1,0 +1,209 @@
+bo/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    padding: 10px;
+}
+
+.top {
+    background-color: #45DEC5;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mid {
+    padding: 20px;
+}
+
+/* Table styling */
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.tbl thead {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tbl th, .tbl td {
+    padding: 12px 15px;
+    border: 1px solid #000000;
+}
+
+.tbl th {
+    text-transform: uppercase;
+}
+
+.tbl td.image img {
+    width: 100px;
+    height: auto;
+}
+
+/* Button styling */
+button {
+    background-color: #45DEC5;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.edt {
+    margin-right: 10px;
+}
+
+.dlt {
+    background-color: #FF6961;
+    color: #ffffff;
+}
+
+/* Empty message styling */
+.empty {
+    text-align: center;
+    font-size: 18px;
+    color: #FF6961;
+    margin-top: 20px;
+}
+
+dy{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bk1.webp); 
+}
+
+.top{
+    font-size: 30px;
+    padding: 20px 10px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    margin-top: 7rem;
+
+}
+
+.box{
+    background-color:  rgba(0, 0, 0, 0.774);
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    border: 5px solid rgba(27, 105, 61, 0.814);
+   
+}
+
+.ptable{
+    align-items: center;
+}
+
+.tbl{
+    color: rgb(0, 0, 0);
+    border-color: rgb(3, 3, 3);
+    align-items: center;
+    padding-top: 0px;
+    margin: auto;
+}
+
+th{
+    height: 10px;
+}
+
+.id{
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.pic{
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.ut{
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.pt{
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.quan{
+    width: 100px ;
+    background-color: aquamarine;
+
+}
+
+.price{
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.size{
+    width: 150px;
+    background-color: aquamarine;
+}
+
+.act{
+    width: 100px;
+    background-color: aquamarine;
+}
+td{
+    text-align: center;
+    background-color: white;
+}
+
+
+
+.dlt,.edt{
+    padding: 5px 25px;
+    border-radius: 15px;
+    border-color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dlt{
+    background-color: rgba(165, 42, 42, 0.903);
+}
+
+.edt{
+    background-color: rgba(0, 143, 238, 0.903);
+}
+.empty{
+    background-color: aquamarine;
+    padding: 10PX;
+    border-radius: 5PX;
+
+}
+
+.empty{
+    text-align: center;
+    font-size: medium;
+}
